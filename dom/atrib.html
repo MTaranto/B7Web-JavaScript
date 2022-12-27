@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulando Atributos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Manipulando Atributos</h1>
+  <img class="imagem" animal-data="Dog" src="dog.jpg">
+  <br>
+  
+  <button onclick="imgToggle('dog.jpg', 'Dog')">Dog</button>
+  <button onclick="imgToggle('cat.jpg', 'Cat')">Cat</button>
+  <br>
+  <button onclick="animalGet()">What is this animal?</button>
+  <p id="resposta"></p>
+  
+  <script src="atrib.js"></script>
+</body>
+</html>

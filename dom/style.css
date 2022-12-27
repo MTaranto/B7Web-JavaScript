@@ -1,0 +1,129 @@
+#exemplo {
+  max-width: 173px;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: 2px solid #888;
+  border-radius: 3px;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  color: white;
+}
+.reset {
+  width: 173px;
+  margin-top: 5px;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.imagem {
+  height: 400px;
+}
+button {
+  width: 200px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 50px;
+  padding: 5px;
+}
+p {
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.texto {
+  width: 200px;
+  height: 900px;
+  overflow: auto;
+  background-color: #ccc;
+  padding: 20px;
+  border: 2px solid blue;
+}
+.scrollbutton {
+  background-color: green;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 999;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+.maths {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #555;
+  cursor: pointer;
+  margin: auto;
+}
+.outside {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(136, 136, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.inside {
+  display: flex;
+  width: 250px;
+  height: 150px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.timer {
+  width: 160px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+  border: 20px groove green;
+  border-radius: 20px;
+}
+.buttons button,
+.reset {
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -1px;
+  box-shadow: 1px 1px 3px #333;
+  border: none;
+}
+.reset {
+  margin-top: 10px;
+}

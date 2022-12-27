@@ -1,0 +1,43 @@
+body {
+  margin: 20px;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  background-color: #00ffaa;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 0px 15px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+li {
+  list-style-type: none;
+}
+button {
+  height: 30px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 2px green;
+  font-size: 1.1em;
+}
+button:hover {
+  background-color: #ccc;
+}
+.top {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #0fa;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  font-size: 22px;
+  display: none;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 1px 2px 4px green;
+}

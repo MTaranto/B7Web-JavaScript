@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">Utilizando Fetch com método POST</h1>
+  <h1 class="title">e fazendo upload de arquivos</h1>
+  
+  <div id="post"></div>
+
+  <button onclick="insertPost()">Inserir Post</button>
+  <br><br>
+
+  <input type="file" id="file">
+  <button onclick="send()">Enviar Arquivo</button>
+  <br><br>
+  <input type="file" id="image" accept="image/*">
+  <button onclick="show()">Mostrar Imagem</button>
+  <div id="area"></div>
+
+  <script type="text/javascript" src="fetch_post.js"></script>
+</body>
+</html>
